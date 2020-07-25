@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<title>LonelyMan.Site</title>
+		
+	<link rel="stylesheet" href="asset/style.css">
+	<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/lonelyman0108/images/favicon.ico">
+	<style>
+	<!--
+	body {
+	    -moz-user-select:none;
+	    }
+	-->
+	</style>
+</head>
+
+<body onselectstart="return false">
+
+	<div class="bg">
+		<img class="lazy-img" data-original="https://cdn.jsdelivr.net/gh/lonelyman0108/images/as11-44-6552_cr2.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" alt="" srcset="">
+	</div>
+
+	<div class="wrap">
+		<div class="title">
+			<h1>LonelyMan.Site</h1>
+		</div>
+		<br>
+		<br>
+		<h2>
+			/**<br>
+			* <b>@name</b> David<br>
+			* <b>@mail</b> me@lonelyman.site<br>
+			* <b>@Telegram</b> @lm0108<br>
+			*/
+		</h2>
+
+		<br>
+		{
+		<ul>
+			<li class="profile site">
+				<a href="//blog.lonelyman.site" target="_blank">
+					<h3><b>blog:</b><span class="link">blog.lonelyman.site,</span></h3>
+				</a>
+			</li>
+
+			<li class="profile twitter">
+				<a href="//twitter.com/lonelyman0108" target="_blank">
+					<h3><b>tweets:</b><span class="link">twitter.com/lonelyman0108,</span></h3>
+				</a>
+			</li>
+
+			<li class="profile bilibili">
+				<a href="//space.bilibili.com/6801560" target="_blank">
+					<h3><b>facebook:</b><span class="link">space.bilibili.com/6801560,</span></h3>
+				</a>
+			</li>
+
+			<li class="profile instagram">
+				<a href="//instagram.com/lonelyman0108" target="_blank">
+					<h3><b>instagram:</b><span class="link">instagram.com/lonelyman0108,</span></h3>
+				</a>
+			</li>
+
+		</ul>
+		}
+
+
+	</div>
+	<div class="footer">
+		<span>&copy; LM</span>&nbsp;
+		<span><a href="http://beian.miit.gov.cn" target="_blank" rel="nofollow">鄂ICP备20004315号-1</a></span>&nbsp;
+		<span>Design by : <a href="https://github.com/lonelyman0108/simple_homepage" target="_blank">LM</a></span>
+	</div>
+					
+	<script type="text/javascript">
+		document.oncontextmenu=function(e){return false;}
+	</script>
+	<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></script>
+	<script>
+		window.onload = function() {
+			$('.bg img').addClass('lazyload');
+			$(function() {
+				$("img.lazyload").lazyload({
+					effect: 'fadeIn',
+					effectspeed: 1000
+				});
+			});
+
+			$(".bg img").lazyload({
+				effect: 'fadeIn',
+				effectspeed: 1000
+			});
+		}
+	</script>
+
+</body>
+</html>
